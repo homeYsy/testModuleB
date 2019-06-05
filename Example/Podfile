@@ -1,10 +1,11 @@
+source 'https://github.com/wuzelun/testRepos.git'
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'testModuleB_Example' do
   pod 'testModuleB', :path => '../'
-
+  pod "testModule", '~> 0.1.0'
   target 'testModuleB_Tests' do
     inherit! :search_paths
 
