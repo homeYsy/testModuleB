@@ -2,8 +2,8 @@
   "name": "testModuleB",
   "version": "0.1.0",
   "summary": "A short description of testModuleB.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/864745256@qq.com/testModuleB",
+  "description": "B业务组件",
+  "homepage": "https://github.com/yangshiyu666/testModuleB.",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "864745256@qq.com": "wyh900207@126.com"
   },
   "source": {
-    "git": "https://github.com/864745256@qq.com/testModuleB.git",
+    "git": "https://github.com/yangshiyu666/testModuleB.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "testModuleB/Classes/**/*"
+  "source_files": "testModuleB/Classes/**/*.{h,m}"
 }

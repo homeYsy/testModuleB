@@ -10,9 +10,3 @@
 #endif
 #endif
 
-#import "DJModuleBViewController.h"
-#import "Target_DJModuleB.h"
-
-FOUNDATION_EXPORT double testModuleBVersionNumber;
-FOUNDATION_EXPORT const unsigned char testModuleBVersionString[];
-

@@ -1,16 +1,23 @@
 PODS:
+  - testModule (0.1.0)
   - testModuleB (0.1.0)
 
 DEPENDENCIES:
+  - testModule (~> 0.1.0)
   - testModuleB (from `../`)
+
+SPEC REPOS:
+  https://github.com/wuzelun/testRepos.git:
+    - testModule
 
 EXTERNAL SOURCES:
   testModuleB:
     :path: "../"
 
 SPEC CHECKSUMS:
-  testModuleB: cca473b7013cccbccd6ef6c4b044d29334799149
+  testModule: ae5c8f463fea35106ab31bfccc14faccd8411f00
+  testModuleB: dcbe94aa14e01e2f43a0e67363d1d70957323bad
 
-PODFILE CHECKSUM: 4a05c2f13ca59ac29d05f9f461458724ef472985
+PODFILE CHECKSUM: 140c1bd00d90d3513af2dca052382501c0a75011
 
 COCOAPODS: 1.6.1

@@ -10,9 +10,8 @@
 #endif
 #endif
 
-#import "DJModuleBViewController.h"
-#import "Target_DJModuleB.h"
+#import "CTMediator.h"
 
-FOUNDATION_EXPORT double testModuleBVersionNumber;
-FOUNDATION_EXPORT const unsigned char testModuleBVersionString[];
+FOUNDATION_EXPORT double testModuleVersionNumber;
+FOUNDATION_EXPORT const unsigned char testModuleVersionString[];
 
